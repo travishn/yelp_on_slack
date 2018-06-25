@@ -82,8 +82,6 @@ const restaurantMessage = (businesses) => {
         ],
         "title": businesses[0].name,
         "title_link": businesses[0].url,
-        "author_name": "Yack Team",
-        "author_icon": "http://a.slack-edge.com/7f18/img/api/homepage_custom_integrations-2x.png",
         "thumb_url": businesses[0].image_url
       },
       {
@@ -119,8 +117,6 @@ const restaurantMessage = (businesses) => {
         ],
         "title": businesses[1].name,
         "title_link": businesses[1].url,
-        "author_name": "Yack Team",
-        "author_icon": "http://a.slack-edge.com/7f18/img/api/homepage_custom_integrations-2x.png",
         "thumb_url": businesses[1].image_url
       }, {
         "fields": [{
@@ -155,8 +151,6 @@ const restaurantMessage = (businesses) => {
         ],
         "title": businesses[2].name,
         "title_link": businesses[2].url,
-        "author_name": "Yack Team",
-        "author_icon": "http://a.slack-edge.com/7f18/img/api/homepage_custom_integrations-2x.png",
         "thumb_url": businesses[2].image_url
       }
     ]
@@ -192,8 +186,6 @@ const restaurantMessage = (businesses) => {
       ],
       "title": businesses[1].name,
       "title_link": businesses[1].url,
-      "author_name": "Yack Team",
-      "author_icon": "http://a.slack-edge.com/7f18/img/api/homepage_custom_integrations-2x.png",
       "thumb_url": businesses[1].image_url
     }]
   };
@@ -228,8 +220,6 @@ const restaurantMessage = (businesses) => {
       ],
       "title": businesses[2].name,
       "title_link": businesses[2].url,
-      "author_name": "Yack Team",
-      "author_icon": "http://a.slack-edge.com/7f18/img/api/homepage_custom_integrations-2x.png",
       "thumb_url": businesses[2].image_url
     }]
   };
