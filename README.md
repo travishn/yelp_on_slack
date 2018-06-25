@@ -57,12 +57,47 @@ Deciding on a place to go for lunch is a common issue amongst teams in the workp
 
 ## Accomplished Over the Weekend
 * Completed tutorials on Express.js, Node.js, and MongoDB
+* Completed heroku set up for the app
 * Determined data format and availability provided by Yelp Fusion API
 * Created webhooks on group channel for slack message builder api tests
 * Constructed form options for creation of timed poll 
 * Connected data yielded from Yelp Fusion API to Slack API to display messages in a specific channel
 
-## Group Members 
-Travis Nguyen, Marshall Cheng, Henry Nguyen, Edmund Ho
+## Group Members & Work Breakdown
+**Travis Nguyen**, 
+**Marshall Cheng**, 
+**Henry Nguyen**, 
+**Edmund Ho**
 
 
+### Day 1
+  - Determine need for own composite score function for filtering of restaurant data
+  - Complete dialog option to create an interactive timed poll 
+  - Determine necessary restaurant information to display to slack users
+  - Format the data provided by Yelp Fusion API to Slack message builder API
+
+### Day 2
+  - Create slash command to create a timed poll
+  - Start on conversion of timed poll results to create request to Yelp Fusion API
+  - Research slack api auth tokens and present findings to group mates
+  - Implement alert that notifies slack channel members that a poll is closing within a specified time frame
+
+### Day 3
+  - Reconvene to ensure data and project files are in an organized state
+  - Run tests to ensure whether data yielded from Yelp Fusion API meet group expectations (Bayesian rating filter from yelp)
+  - Walk through process of app to ensure members have general understanding of data flow
+  - Reconfigure data in slack message builder to create interactive and presentable messages for slack users
+
+
+### Day 4
+  - Setup necessary files and components to create splash page for app
+  - Create user auth for when teams add app to their workspace (determine which users have option of initializing a poll)
+  - Create button that users can click to automatically install the app in their workspace
+
+### Day 5
+  - Style the splash page
+  - Add directions to front end to ensure users understand purpose and commands of app
+
+### Day 6
+ - Look over project and ensure everything is functioning correctly
+ - Make styling changes to ensure great UI/UX
