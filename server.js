@@ -196,25 +196,6 @@ app.post('/interactive-component', (req, res) => {
 });
 
 // YELP
-app.get('/userrequest', (req, res) => {
-
-  client.search({
-    term: 'hamburger',
-    price: [1, 2], // 1 or 2 dollar signs
-    location: 'ferry plaza, san francisco',
-    radius: 1500,
-    sort_by: "distance",
-  }).then(response => {
-    const filteredResults = response.jsonBody.businesses;
-
-    // logs to server console
-    filteredResults.forEach(bus => console.log(bus.name));
-    res.json(filteredResults);
-  });
-});
-
-
-// Hard-coded at the moment and will want to replace with user request data
 app.post('/restaurants', function (req, res) {
 
   client.search({
